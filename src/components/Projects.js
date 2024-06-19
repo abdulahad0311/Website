@@ -42,6 +42,39 @@ export const Projects = () => {
         },
     ];
 
+    const projectsTwo = [
+        {
+        title: "Business Startup",
+        description: "Design & Development",
+        imgUrl: projImg1,
+        },
+        {
+        title: "Business Startup",
+        description: "Design & Development",
+        imgUrl: projImg2,
+        },
+        {
+        title: "Business Startup",
+        description: "Design & Development",
+        imgUrl: projImg3,
+        },
+        {
+        title: "Business Startup",
+        description: "Design & Development",
+        imgUrl: projImg1,
+        },
+        {
+        title: "Business Startup",
+        description: "Design & Development",
+        imgUrl: projImg2,
+        },
+        {
+        title: "Business Startup",
+        description: "Design & Development",
+        imgUrl: projImg3,
+        },
+    ];
+
     return(
         <section className="project" id="projects">
             <Container>
@@ -79,7 +112,20 @@ export const Projects = () => {
                                                 }
                                             </Row>
                                         </Tab.Pane>
-                                        <Tab.Pane eventKey="second">Loren Ipsum</Tab.Pane>
+                                        <Tab.Pane eventKey="second">
+                                            <Row>
+                                                {
+                                                    projectsTwo.map((project, index)=>{
+                                                        return(
+                                                            <ProjectCard
+                                                                key={index}
+                                                                {...project}
+                                                            />
+                                                        )
+                                                    })
+                                                }
+                                            </Row>
+                                        </Tab.Pane>
                                         <Tab.Pane eventKey="third">Loren Ipsum</Tab.Pane>
                                     </Tab.Content>
                                 </Tab.Container>

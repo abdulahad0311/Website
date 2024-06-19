@@ -2,7 +2,7 @@ import { Col } from "react-bootstrap"
 
 export const ProjectCard = ({title, description, imgUrl}) => {
     return(
-        <Col sm={12} md={12}>
+        <Col sm={12} md={12} style={{marginBottom:'100px'}}>
             <div className="project-bx">
                 <div className="row">
                     <div className="col-md-5 px-3">
