@@ -3,8 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 // import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import carousel01 from "../assets/img/gettyimages-1.jpg";
-import carousel02 from "../assets/img/gettyimages-2.jpg";
-import carousel03 from "../assets/img/gettyimages-3.jpg";
+import carousel02 from "../assets/img/Work-with-dedication.jpg";
+import carousel03 from "../assets/img/responsive-web.jpg";
 import colorSharp from "../assets/img/color-sharp.png";
 import { useState } from "react";
 
